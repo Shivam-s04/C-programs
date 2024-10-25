@@ -17,7 +17,7 @@ void main(){
     }
 }
 
-void matrix_add(int m[3][3], int arr[3][3], int row, int col) {
+void matrix_add(int m[][3], int arr[][3], int row, int col) {
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
             m[i][j] += arr[i][j];

@@ -2,7 +2,7 @@
 #include<stdbool.h>
 #include<string.h>
 
-void matrix_add(int m1[][3],int m2[][3], int row, int col);
+void matrix_add(int m1[][],int m2[][], int row, int col);
 
 
 void main(){

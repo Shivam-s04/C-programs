@@ -31,6 +31,7 @@ void main(){
     //dynamic memory allocation
     // int *arr  = (int*)malloc(size*sizeof(int));
     //  get_data( arr, size);
+    // remember to free the memory
     
     //print
     // for(int i=0 ; i<size ; i++){
